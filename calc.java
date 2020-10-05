@@ -1,6 +1,11 @@
 import java.util.Scanner;
 
 class calc{
+
+  public double exponent(double base, double toThePowerOf){
+    double result = 1;
+    for (int i = 0; i < toThePowerOf; i++)
+
   public static void main(String[] args) {
     System.out.println("Welcome to the Calculator");
 
@@ -39,15 +44,14 @@ class calc{
       System.out.println(num1 + " multipled by " + num2 + " is " + result);
     }
     if (ch.equals("3"))  {
-      public double exponent(double base, double toThePowerOf){
-        double result = 1;
-        for (int i = 0; i < toThePowerOf; i++){
-          result = base * result;
-        }
-        return result;
-        System.out.println(result);
+
+        System.out.println("Enter a base");
+        num1 = calc.nextDouble();
+        System.out.println("Enter an exponent");
+        num2 = calc.nextDouble();
+        result = base * result;
+        System.out.println(base + " to the power of  " + toThePowerOf + " is " + result);
       }
 
     }
-
-}
+  }
