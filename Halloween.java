@@ -37,7 +37,30 @@ import java.util.*;
 
       neighborhood[h][g] = (Math.random())*10;
 
+      if(rows[p] == 1){
+      {
+        streetNames[p] = "364th";
+      } else if(rows[p] == 2)
 
+      {
+        streetNames[p] = "348th";
+      } else if(rows[p] == 3)
+
+      {
+        streetNames[p] = "Northernth";
+      } else if(rows[p] == 4)
+
+      {
+        streetNames[p] = "Southernth";
+      }
+
+
+      System.out.println("Welcome to Halloween! If you want lots of candy these are the houses you should go to.");
+      System.out.println("Your 1st stop" + bestCol1 + " on " + st1);
+      System.out.println("");
+      System.out.println("");
+      System.out.println("");
+      System.out.println("");
 
       }
     }
